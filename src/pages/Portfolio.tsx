@@ -313,8 +313,20 @@ CERTIFICATIONS
 
             {/* Quick Status Pill */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-zinc-200/50 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800/60 text-zinc-600 dark:text-zinc-400 font-mono text-xs">
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-ping" />
-              <span>Database Synchronization Status: <strong className="uppercase">{dbStatus} cached</strong></span>
+              <span
+  className={`w-2 h-2 rounded-full ${
+    dbStatus === "mongodb"
+      ? "bg-green-500 animate-ping"
+      : "bg-yellow-500"
+  }`}
+/>
+
+<span>
+  Database Synchronization Status:{" "}
+  <strong className="uppercase">
+    {dbStatus === "mongodb" ? "MONGODB ONLINE" : "LOCAL CACHE"}
+  </strong>
+</span>
             </div>
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
