@@ -1,7 +1,7 @@
 import { Project, Certificate, ContactMessage, AuthState, ProfileSettings } from "../types";
 
-const API_BASE = "/api";
-
+const API_BASE =
+  import.meta.env.VITE_API_URL || "http://localhost:3000";
 // Helper to get Auth headers
 const getAuthHeaders = (): Record<string, string> => {
   const token = localStorage.getItem("portfolio_admin_token");
