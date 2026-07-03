@@ -3,8 +3,7 @@
 A modern full-stack portfolio website built to showcase projects, technical skills, certifications, and achievements. It features a secure admin dashboard for managing portfolio content, a responsive user interface, and a MongoDB-powered backend.
 
 🌐 **Live Demo:**  
-https://ai-student-portfolio-77gig0nmn-charankommireddy1.vercel.app
-
+https://ai-student-portfolio-5a2k8faxi-charankommireddy1.vercel.app/
 💻 **Repository:**  
 https://github.com/charankommireddy/ai-student-portfolio
 
