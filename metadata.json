@@ -1,0 +1,6 @@
+{
+  "name": "AI Student Portfolio",
+  "description": "A responsive, professional personal portfolio website for an AI student, featuring project filtering, certifications, contact management, and an admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,141 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "title": "AI-Powered Coding Assistant",
+      "description": "Developed an intelligent coding copilot using LLMs that can complete and refactor code inside code editors. It analyzes full repository context to suggest modular changes.",
+      "technologies": [
+        "React",
+        "Express",
+        "TypeScript",
+        "Gemini API",
+        "Tailwind CSS"
+      ],
+      "githubLink": "https://github.com/example/ai-copilot",
+      "liveDemoLink": "https://example.com/ai-copilot",
+      "projectImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "category": "AI/ML",
+      "date": "2026-05"
+    },
+    {
+      "id": "p2",
+      "title": "Real-time Multi-agent Orchestration Suite",
+      "description": "Built a fully visual canvas to coordinate multi-agent system tasks, facilitating custom workflows, telemetry feedback loops, and secure cloud logging.",
+      "technologies": [
+        "React",
+        "D3.js",
+        "Node.js",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "githubLink": "https://github.com/example/multi-agent",
+      "liveDemoLink": "https://example.com/multi-agent",
+      "projectImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "category": "Full Stack",
+      "date": "2026-03"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "c1",
+      "name": "Machine Learning Specialization",
+      "issuingOrganization": "DeepLearning.AI",
+      "date": "2025-11",
+      "credentialLink": "https://coursera.org/verify/specialization/ml-special"
+    },
+    {
+      "id": "c2",
+      "name": "TensorFlow Developer Certificate",
+      "issuingOrganization": "Google",
+      "date": "2026-02",
+      "credentialLink": "https://credential.net/google-tf"
+    }
+  ],
+  "messages": [],
+  "admins": [
+    {
+      "username": "admin",
+      "passwordHash": "$2b$10$Bd8oZup31B7iTml63/YGYuzblQlWeKNY2yiJae66sgEZe2sqvsqYK"
+    }
+  ],
+  "settings": {
+    "fullName": "Kommireddy Charan",
+    "role": "B.Tech Computer Science (Artificial Intelligence) Student",
+    "aboutText": "I am a passionate Computer Science student specializing in Artificial Intelligence and Machine Learning. I build full-stack intelligent applications that combine cutting-edge machine learning models with elegant, high-performance user interfaces. I love solving complex algorithmic challenges and automating real-world workflows.",
+    "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=400&q=80",
+    "skills": [
+      {
+        "category": "Programming",
+        "list": [
+          "Python",
+          "Java",
+          "C / C++",
+          "JavaScript",
+          "TypeScript",
+          "SQL"
+        ]
+      },
+      {
+        "category": "AI & Machine Learning",
+        "list": [
+          "Machine Learning (Scikit-Learn)",
+          "Deep Learning (PyTorch)",
+          "NumPy & Pandas",
+          "Computer Vision & NLP",
+          "LLMs & Prompt Engineering"
+        ]
+      },
+      {
+        "category": "Web Development",
+        "list": [
+          "React",
+          "Express",
+          "Node.js",
+          "Tailwind CSS",
+          "HTML5 & CSS3",
+          "Vite"
+        ]
+      },
+      {
+        "category": "Databases & Tools",
+        "list": [
+          "MongoDB & Mongoose",
+          "PostgreSQL",
+          "Git & GitHub",
+          "Docker",
+          "VS Code"
+        ]
+      }
+    ],
+    "resumePdf": "",
+    "resumeDetails": {
+      "education": [
+        {
+          "institution": "B.Tech in Computer Science & Engineering (Artificial Intelligence)",
+          "degree": "Bachelor of Technology",
+          "period": "2023 - 2027",
+          "details": "CGPA: 9.4/10. Specialized in Deep Learning, Data Structures, Algorithms, and Multi-Agent Systems."
+        }
+      ],
+      "experience": [
+        {
+          "company": "AI Innovation Labs",
+          "role": "Machine Learning Intern",
+          "period": "Summer 2025",
+          "details": "Built and evaluated computer vision pipelines for automatic image labeling. Assisted in training custom CNNs, boosting dataset preparation speeds."
+        }
+      ]
+    },
+    "socialLinks": {
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com/charankommireddy",
+      "twitter": "https://twitter.com",
+      "email": "kommireddycharan1@gmail.com"
+    },
+    "codingProfiles": {
+      "githubUsername": "charankommireddy",
+      "leetcodeUsername": "kommireddycharan1",
+      "hackerrankUsername": "kommireddycharan1"
+    }
+  }
+}
