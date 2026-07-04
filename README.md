@@ -3,7 +3,7 @@
 A modern full-stack portfolio website built to showcase projects, technical skills, certifications, and achievements. It features a secure admin dashboard for managing portfolio content, a responsive user interface, and a MongoDB-powered backend.
 
 🌐 **Live Demo:**  
-ai-student-portfolio-olive.vercel.app
+https://ai-student-portfolio-olive.vercel.app/
 
 💻 **Repository:**  
 https://github.com/charankommireddy/ai-student-portfolio
