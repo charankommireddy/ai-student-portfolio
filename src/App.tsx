@@ -123,28 +123,37 @@ export default function App() {
       />
 
       {/* Main Pages Content container */}
-      <main className="flex-grow">
-        {view === "portfolio" ? (
-          <Portfolio
-            onAddToast={handleAddToast}
-            projects={projects}
-            certificates={certificates}
-            settings={settings}
-            onRefreshData={fetchDbData}
-            isLoading={isLoading}
-            dbStatus={dbStatus}
-          />
-        ) : (
-          <AdminDashboard
-            onAddToast={handleAddToast}
-            projects={projects}
-            certificates={certificates}
-            settings={settings}
-            onRefreshData={fetchDbData}
-            dbStatus={dbStatus}
-          />
-        )}
-      </main>
+<main className="flex-grow">
+  {isLoading ? (
+    <div className="min-h-screen flex items-center justify-center bg-zinc-50 dark:bg-zinc-950">
+      <div className="text-center">
+        <div className="w-12 h-12 border-4 border-violet-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+        <p className="text-zinc-600 dark:text-zinc-400 font-mono">
+          Loading Portfolio...
+        </p>
+      </div>
+    </div>
+  ) : view === "portfolio" ? (
+    <Portfolio
+      onAddToast={handleAddToast}
+      projects={projects}
+      certificates={certificates}
+      settings={settings}
+      onRefreshData={fetchDbData}
+      isLoading={isLoading}
+      dbStatus={dbStatus}
+    />
+  ) : (
+    <AdminDashboard
+      onAddToast={handleAddToast}
+      projects={projects}
+      certificates={certificates}
+      settings={settings}
+      onRefreshData={fetchDbData}
+      dbStatus={dbStatus}
+    />
+  )}
+</main>
 
       {/* Client-facing footer */}
       {view === "portfolio" && <Footer />}
