@@ -362,10 +362,10 @@ CERTIFICATIONS
               {/* Glass frame container */}
               <div className="relative w-full h-full rounded-3xl glass-card overflow-hidden p-3 flex items-center justify-center border-white/30 dark:border-zinc-800/40">
                 <img 
-                  src={settings?.avatarUrl || "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=600&q=80"}
+                  src={settings?.avatarUrl}
                   alt={settings?.fullName || "Charan Kommireddy"}
                   referrerPolicy="no-referrer"
-                  loading="lazy"
+                  loading="eager"
                   className="w-full h-full object-cover rounded-2xl shadow-inner select-none transition-transform duration-500 hover:scale-105"
                 />
               </div>
